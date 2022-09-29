@@ -1,8 +1,12 @@
 ---
 title: "Lab 4 - Introduction to RStudio and R Markdown. Presentations"
+
+author: "MingJia Mao"
+date: "Sep 31st,2022"
 output:
   html_document:
     toc: true
+
 ---
 
 <!-- This is a comment in R Markdown (and regular markdown, such as in Jupyter)-->
