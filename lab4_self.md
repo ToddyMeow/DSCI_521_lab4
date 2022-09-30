@@ -45,6 +45,11 @@ penguins
 
 Process penguin data
 
+``` r
+penguins_nst <- penguins |> group_by(island, species) |> nest()
+penguins_nst
+```
+
     ## # A tibble: 5 × 3
     ## # Groups:   island, species [5]
     ##   species   island    data              
@@ -54,6 +59,11 @@ Process penguin data
     ## 3 Adelie    Dream     <tibble [56 × 6]> 
     ## 4 Gentoo    Biscoe    <tibble [124 × 6]>
     ## 5 Chinstrap Dream     <tibble [68 × 6]>
+
+``` r
+penguins_unnst <- penguins_nst |> unnest(cols = c(data))
+penguins_unnst
+```
 
     ## # A tibble: 344 × 8
     ## # Groups:   island, species [5]

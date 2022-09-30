@@ -2,7 +2,7 @@
 title: "Lab4_rmd"
 output:
     output:
-      github_document
+      html_document
       
 date: "2022-09-29"
 ---
@@ -28,11 +28,11 @@ penguins
 ## Markdown session #2
 
 Process penguin data
-```{r nested data, echo=FALSE}
+```{r nested data}
 penguins_nst <- penguins |> group_by(island, species) |> nest()
 penguins_nst
 ```
-```{r unnest data,echo=FALSE}
+```{r unnest data}
 penguins_unnst <- penguins_nst |> unnest(cols = c(data))
 penguins_unnst
 ```
