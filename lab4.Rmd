@@ -300,7 +300,9 @@ rubric={mechanics:6}
    Paste a link to these files as your answer below.
 ```
 
-YOUR ANSWER GOES HERE
+YOUR ANSWER GOES HERE  
+https://github.ubc.ca/MDS-2022-23/DSCI_521_lab4_mingjiam/blob/master/lab4_self.html
+
 
 ```{block, type="alert alert-info"}
 #### Question 9 (Optional)
@@ -314,7 +316,9 @@ rubric={mechanics:1,reasoning:1}
    What do you see? How is it rendered?
 ```
 
-YOUR ANSWER GOES HERE
+YOUR ANSWER GOES HERE  
+Compared with the pdf version and html version of my rmd file, it rendered it into a md file so that github can directly display the layout just like the pdf did, however .html is displaying all the source code in html language. 
+
 
 ```{block, type="alert alert-info"}
 #### Question 10
