@@ -2,7 +2,7 @@
 title: "Lab4_rmd"
 output:
     output:
-      html_document
+      pdf_document
       
 date: "2022-09-29"
 ---
