@@ -276,7 +276,12 @@ to the GitHub repository for this lab
 and paste the two links below this question.
 ```
 
-YOUR ANSWER GOES HERE
+```{block my html link}
+
+https://github.ubc.ca/MDS-2022-23/DSCI_521_lab4_mingjiam/blob/master/lab4_self.html  
+https://github.ubc.ca/MDS-2022-23/DSCI_521_lab4_mingjiam/blob/master/lab4_self.pdf  
+
+```
 
 ```{block, type="alert alert-info"}
 #### Question 8
